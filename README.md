@@ -16,16 +16,16 @@ pip install yfinance
 
 ```bash
 # Scan a list of tickers
-./nashscan PLTR,TSLA,MSFT,AMZN
+python3 nashscan.py PLTR,TSLA,MSFT,AMZN
 
 # Top N results only
-./nashscan PLTR,TSLA,MSFT,AMZN -n 5
+python3 nashscan.py PLTR,TSLA,MSFT,AMZN -n 5
 
 # Full detail with per-ticker breakdown
-./nashscan PLTR,TSLA --detail
+python3 nashscan.py PLTR,TSLA --detail
 
 # Write to file
-./nashscan PLTR,TSLA,MSFT -o report.md
+python3 nashscan.py PLTR,TSLA,MSFT -o report.md
 ```
 
 ## Scoring Framework (100 points)

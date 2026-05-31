@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 nashscan — Scan stocks for Tom Nash's "Price Down, Business Up" mispricing gap.
 
